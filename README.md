@@ -45,3 +45,6 @@ ROC-AUC: 0.88
 - Deployment using Streamlit
 - Scikit-learn
 - Matplotlib
+
+## 💡 Real-World Use Case
+This model can be used by banks and financial institutions to assess loan eligibility and reduce risk.
