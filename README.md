@@ -48,3 +48,10 @@ ROC-AUC: 0.88
 
 ## 💡 Real-World Use Case
 This model can be used by banks and financial institutions to assess loan eligibility and reduce risk.
+
+## 🔍 Key Insights
+- Credit amount and duration are among the most important features influencing creditworthiness.
+- Random Forest captured complex relationships better than other models.
+
+## ✅ Conclusion
+The project successfully predicts creditworthiness using machine learning techniques. Among the models tested, Random Forest provided the best performance.
