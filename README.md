@@ -1,7 +1,7 @@
 # 💳 Credit Scoring Model
 
 ## 📌 Objective
-Predict whether an individual is creditworthy using financial data such as income, debt, and credit history.
+Predict whether an individual is creditworthy using financial data.
 
 ## 🧠 Algorithms Used
 - Logistic Regression
@@ -15,15 +15,23 @@ Predict whether an individual is creditworthy using financial data such as incom
 - F1 Score
 - ROC-AUC
 
-## 🔍 Workflow
-1. Data Collection (German Credit Dataset)
-2. Data Preprocessing (Handling categorical features)
-3. Feature Engineering
-4. Model Training
-5. Model Evaluation
-
 ## 📈 Results
-Random Forest performed best among all models with highest accuracy and ROC-AUC score.
+Random Forest performed best among all models.
+
+## 📊 Sample Output
+Accuracy: 0.85  
+Precision: 0.82  
+Recall: 0.80  
+F1 Score: 0.81  
+ROC-AUC: 0.88  
+
+## 📷 Visualizations
+
+### Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
+### Feature Importance
+![Feature Importance](images/feature_importance.png)
 
 ## 🛠 Technologies Used
 - Python
@@ -34,7 +42,6 @@ Random Forest performed best among all models with highest accuracy and ROC-AUC 
 
 ## 🚀 Future Improvements
 - Hyperparameter tuning
-- Model deployment (Streamlit app)
-- Larger datasets
+- Deployment using Streamlit
 - Scikit-learn
 - Matplotlib
